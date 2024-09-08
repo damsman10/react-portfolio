@@ -1,9 +1,13 @@
 import Header from "./sticky/Header"
 import './App.css'
+import Hero from "./components/Hero"
 
 const App = () => {
   return (
-    <Header />
+    <div>
+      <Header />
+      <Hero />
+    </div>
   )
 }
 
